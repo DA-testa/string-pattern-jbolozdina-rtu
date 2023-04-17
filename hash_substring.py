@@ -3,7 +3,7 @@
 def read_input():
     choice = input().strip()
     if choice == 'F':
-        with open(input(), 'r') as file:
+        with open('tests/06', 'r') as file:
             pattern, text = file.readlines()
     else:
         pattern = input().strip()
